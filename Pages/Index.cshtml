@@ -1,0 +1,35 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem-vindo ao Sistema de Cadastro</h1>
+    <p class="lead">Este é um sistema de gerenciamento de produtos e clientes.</p>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h3>Gerenciar Produtos</h3>
+            </div>
+            <div class="card-body">
+                <p>Acesse aqui para cadastrar, editar, visualizar e excluir produtos.</p>
+                <a asp-page="./Produtos/Index" class="btn btn-primary">Ir para Produtos</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h3>Gerenciar Clientes</h3>
+            </div>
+            <div class="card-body">
+                <p>Acesse aqui para cadastrar, editar, visualizar e excluir clientes.</p>
+                <a asp-page="./Clientes/Index" class="btn btn-primary">Ir para Clientes</a>
+            </div>
+        </div>
+    </div>
+</div>
