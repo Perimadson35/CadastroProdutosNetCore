@@ -123,8 +123,7 @@ Este projeto está licenciado sob a licença MIT.
 <br>
 <br>
 <br>
-📞 Contato
-Seu Nome: Perimadson Araujo Machado.
+Nome: Perimadson Araujo Machado.
 
 LinkedIn: https://www.linkedin.com/in/perimadson-araujo/
 
