@@ -1,64 +1,110 @@
-Guia do Sistema de Cadastro de Produtos e Clientes
+🚀 Sistema de Cadastro de Produtos e Clientes
+🌟 Sobre o Projeto
+Este projeto é um protótipo de um sistema CRUD (Create, Read, Update, Delete) completo para Cadastro de Produtos e Clientes, desenvolvido utilizando ASP.NET Core Razor Pages. O objetivo foi construir uma aplicação web robusta e funcional, focando na organização do código, boas práticas de desenvolvimento e uma experiência de usuário intuitiva.
 
-1. O que foi feito no projeto
-Este sistema é um protótipo de gerenciamento de produtos e clientes, desenvolvido com ASP.NET Core Razor Pages. As seguintes funcionalidades foram implementadas e configuradas:
+O sistema permite gerenciar clientes e seus respectivos produtos, demonstrando a capacidade de construir aplicações de back-end com uma interface web interativa.
 
-Gerenciamento de Clientes (CRUD):
+✨ Funcionalidades Implementadas
+As principais funcionalidades e melhorias desenvolvidas incluem:
 
-Criação de novos clientes com campos como Nome, Sobrenome, E-mail, Data de Cadastro e status Ativo.
+👤 Gerenciamento de Clientes:
+➕ Criar: Cadastro de novos clientes com Nome, Sobrenome, E-mail, Data de Cadastro e status Ativo.
 
-Visualização de todos os clientes em uma tabela.
+📋 Listar: Visualização de todos os clientes em uma tabela com colunas personalizadas (Código, E-mail, Data/Hora/Cadastro).
 
-Edição de informações de clientes existentes.
+✏️ Editar: Atualização das informações de clientes existentes.
 
-Exclusão de clientes.
+🔍 Detalhes: Visualização detalhada de um cliente específico.
 
-Gerenciamento de Produtos (CRUD):
+🗑️ Excluir: Remoção de clientes da base de dados.
 
-Criação de novos produtos com campos como Nome, Valor, status Disponível e a vinculação a um cliente existente.
+📦 Gerenciamento de Produtos:
+➕ Criar: Cadastro de novos produtos com Nome, Valor, status Disponível e vinculação a um cliente existente.
 
-Visualização de todos os produtos em uma tabela.
+📋 Listar: Visualização de todos os produtos em uma tabela, incluindo o Nome do Cliente e seu codigoid relacionado.
 
-Edição de produtos existentes, incluindo validação para o uso de vírgula no campo de valor.
+✏️ Editar: Atualização das informações de produtos, com validação aprimorada para aceitar vírgulas em valores decimais.
 
-Exclusão de produtos.
+🔍 Detalhes: Visualização detalhada de um produto específico, exibindo o nome do cliente associado.
 
-Melhorias na Interface do Usuário (UI):
+🗑️ Excluir: Remoção de produtos da base de dados.
 
-Página Inicial (Home) funcional e com links diretos para as áreas de produtos e clientes.
+🎨 Melhorias na Interface (UI/UX):
+🏠 Página Inicial (Home): Uma landing page acolhedora com links diretos para as seções de Clientes e Produtos.
 
-Adição de colunas "Código" para identificar clientes e produtos de forma única nas tabelas.
+🚦 Indicadores Visuais: Campos Ativo (Clientes) e Disponível (Produtos) são exibidos como "Sim" (✅ Verde) ou "Não" (❌ Vermelho) para maior clareza.
 
-Exibição do nome do cliente (em vez do ID) na tabela de produtos e na página de detalhes de um produto.
+📊 Tabelas Aprimoradas:
 
-Indicadores visuais para os campos Ativo e Disponível, exibindo "Sim" em verde e "Não" em vermelho.
+Estilo: Utilização de table-striped (linhas zebradas) e table-hover (efeito ao passar o mouse) para melhor legibilidade.
 
-Aparência mais profissional para as tabelas com linhas zebradas e cabeçalho escuro.
+Cabeçalho: table-dark para destacar o cabeçalho das tabelas.
 
-2. Como executar o projeto
-Para rodar este projeto em sua máquina, siga os passos abaixo:
+Validação Frontend: Suporte para separadores decimais (vírgula e ponto) no campo de Valor dos produtos.
+
+🛠️ Tecnologias Utilizadas
+Backend:
+
+.NET 7.0 (ou versão compatível)
+
+C#
+
+ASP.NET Core Razor Pages
+
+Entity Framework Core (utilizado para simular o acesso a dados)
+
+Frontend:
+
+HTML5
+
+CSS3
+
+JavaScript
+
+Bootstrap 5 (para estilização e responsividade)
+
+🚀 Como Executar o Projeto Localmente
+Siga estes passos para ter o projeto funcionando em sua máquina:
 
 Pré-requisitos
-Certifique-se de que você tem o .NET SDK instalado em seu computador.
+.NET SDK 7.0 (ou versão compatível) instalado.
 
-Passos de Execução
-Abra o terminal
-Abra o terminal (como o PowerShell, Prompt de Comando ou Terminal do VS Code) e navegue até a pasta raiz do projeto (CadastroProdutosNetCore).
+Um editor de código como Visual Studio Code ou Visual Studio.
 
-Restaure as dependências
-Execute o comando abaixo para garantir que todas as dependências do projeto foram baixadas corretamente.
+Instruções
+Clone o Repositório:
+
+Bash
+
+git clone https://github.com/Perimadson35/CadastroProdutosNetCore.git
+Navegue até a pasta do projeto:
+
+Bash
+
+cd CadastroProdutosNetCore
+Restaure as dependências do .NET:
 
 Bash
 
 dotnet restore
-Execute a aplicação
-Agora, rode a aplicação com o seguinte comando:
+Execute a aplicação:
 
 Bash
 
 dotnet run
-Acesse o sistema
-Após a execução do comando, a aplicação estará no ar. Abra seu navegador e acesse o endereço:
+Acesse no Navegador:
+Abra seu navegador e acesse o endereço:
 http://localhost:5000
 
-Seu sistema de gerenciamento de produtos e clientes estará pronto para ser utilizado!
+🤝 Contribuições
+Sinta-se à vontade para abrir issues ou pull requests se tiver sugestões de melhoria ou encontrar algum problema.
+
+📄 Licença
+Este projeto está licenciado sob a licença MIT.
+
+📞 Contato
+Seu Nome: Perimadson Araujo Machado.
+
+LinkedIn: https://www.linkedin.com/in/perimadson-araujo/
+
+GitHub: https://github.com/Perimadson35/
